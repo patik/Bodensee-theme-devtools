@@ -8,21 +8,25 @@ An easy-to-read, configurable theme for Chrome Developer Tools.
 
 #### Mac OS X
 
+Automatic:
+
 ```
 cp ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom_backup.css
 curl -o ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css
 ```
 
-Or download <a href="https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css" target="_black">Custom.css</a> and copy it to `~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/`
+Or manually copy <a href="https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css" target="_black">Custom.css</a> to `~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/`
 
 #### Linux
+
+Automatic:
 
 ```
 cp ~/.config/chromium/Default/User\ StyleSheets/Custom.css ~/.config/chromium/Default/User\ StyleSheets/Custom_backup.css
 curl -o ~/.config/chromium/Default/User\ StyleSheets/Custom.css https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css
 ```
 
-Or download <a href="https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css" target="_black">Custom.css</a> and copy it to `~/.config/chromium/Default/User\ StyleSheets/`
+Or manually copy <a href="https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css" target="_black">Custom.css</a> to `~/.config/chromium/Default/User\ StyleSheets/`
 
 #### Windows
 
