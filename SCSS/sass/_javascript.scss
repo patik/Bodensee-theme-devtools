@@ -1,18 +1,22 @@
 [class^="webkit-javascript"] { }
 
 .webkit-javascript-string {
-  color: $javascript-tag-foreground !important;
+    color: $javascript-tag-foreground !important;
 }
+
 .webkit-javascript-comment {
-  font-style: italic !important;
-  color: $javascript-comment-color !important;
+    font-style: italic !important;
+    color: $javascript-comment-color !important;
 }
+
 .webkit-javascript-number {
-  color: $javascript-number-color !important;
+    color: $javascript-number-color !important;
 }
+
 .webkit-javascript-ident {
-  color: $javascript-tag-foreground !important;
+    color: $javascript-tag-foreground !important;
 }
+
 .webkit-javascript-keyword {
-  color: $javascript-keyword-color !important;
+    color: $javascript-keyword-color !important;
 }

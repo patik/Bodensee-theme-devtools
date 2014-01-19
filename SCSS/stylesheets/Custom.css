@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------------------------------------------------
 How to Install 怎麼安裝
 1. Download Custom.css
@@ -15,24 +16,31 @@ How to bulid your themes 如何製作自己的Themes
 
 
 ------------------------------------------------*/
-/* line 2, ../sass/_inspect.scss */
-#-webkit-web-inspector .source-code, #-webkit-web-inspector #main-panels .split-view-sidebar-right *, #-webkit-web-inspector #console-message, #-webkit-web-inspector .text-editor-contents, #-webkit-web-inspector #console-view * {
-  font-size: 12px !important;
-  font-family: Menlo, "Consolas", monospace !important;
+/* line 6, ../sass/_inspect.scss */
+#-webkit-web-inspector .source-code,
+#-webkit-web-inspector #main-panels .split-view-sidebar-right *,
+#-webkit-web-inspector #console-message,
+#-webkit-web-inspector .text-editor-contents,
+#-webkit-web-inspector #console-view * {
+  font-size: 15px !important;
+  font-family: "Source Sans Pro", Menlo, "Consolas", monospace !important;
   line-height: 1.2em !important;
 }
 
-/* line 10, ../sass/_inspect.scss */
-#console-messages .console-group-messages .section .header::before, #console-messages .properties-tree li.parent::before {
+/* line 15, ../sass/_inspect.scss */
+#console-messages .console-group-messages .section .header::before,
+#console-messages .properties-tree li.parent::before {
   content: url(chrome-devtools://devtools/Images/treeRightTriangleBlack.png) !important;
 }
-/* line 13, ../sass/_inspect.scss */
-#console-messages .console-group-messages .section.expanded .header::before, #console-messages .properties-tree li.parent.expanded::before {
+/* line 20, ../sass/_inspect.scss */
+#console-messages .console-group-messages .section.expanded .header::before,
+#console-messages .properties-tree li.parent.expanded::before {
   content: url(chrome-devtools://devtools/Images/treeDownTriangleBlack.png) !important;
 }
 
-/* line 18, ../sass/_inspect.scss */
-#elements-content .parent, #elements-content .parent * {
+/* line 29, ../sass/_inspect.scss */
+#elements-content .parent,
+#elements-content .parent * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -47,64 +55,64 @@ How to bulid your themes 如何製作自己的Themes
   -o-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
   transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
 }
-/* line 37, ../sass/_inspect.scss */
+/* line 47, ../sass/_inspect.scss */
 #elements-content.source-code {
   background: #fcfcfc !important;
 }
-/* line 40, ../sass/_inspect.scss */
+/* line 51, ../sass/_inspect.scss */
 #elements-content .parent {
   border: 1px solid transparent;
 }
-/* line 42, ../sass/_inspect.scss */
+/* line 54, ../sass/_inspect.scss */
 #elements-content .parent::before {
   position: relative;
   z-index: 999;
   content: url(chrome-devtools://devtools/Images/treeRightTriangleBlack.png) !important;
 }
-/* line 47, ../sass/_inspect.scss */
-#elements-content .parent.expande {
+/* line 60, ../sass/_inspect.scss */
+#elements-content .parent.expanded {
   background: #f1f1f1;
 }
-/* line 50, ../sass/_inspect.scss */
+/* line 64, ../sass/_inspect.scss */
 #elements-content .parent.expanded::before {
   content: url(chrome-devtools://devtools/Images/treeDownTriangleBlack.png) !important;
 }
-/* line 53, ../sass/_inspect.scss */
+/* line 68, ../sass/_inspect.scss */
 #elements-content .parent.selected {
   border-left: 1px solid #000;
   border-radius: 3px;
   background: #D0F3F3;
 }
-/* line 60, ../sass/_inspect.scss */
+/* line 75, ../sass/_inspect.scss */
 #elements-content .highlight {
   color: #d4d4d4;
 }
 
-/* line 65, ../sass/_inspect.scss */
+/* line 80, ../sass/_inspect.scss */
 #-webkit-web-inspector .elements .selected {
-  border: 1px solid #aaaaaa;
-  background: #fad165 !important;
+  border: 1px solid #6a6a6a;
+  background: #ffeea8 !important;
 }
 
 /* wrap expanded style */
-/* line 71, ../sass/_inspect.scss */
+/* line 86, ../sass/_inspect.scss */
 #elements-content .parent.selected + *.expanded {
   margin-bottom: 10px !important;
-  border-right: 1px dashed #aaaaaa;
-  border-bottom: 1px dashed #aaaaaa;
-  border-left: 1px dashed #aaaaaa;
+  border-right: 1px dashed #6a6a6a;
+  border-bottom: 1px dashed #6a6a6a;
+  border-left: 1px dashed #6a6a6a;
   border-radius: 0 0 3px 3px;
-  background: #f1f1f1 !important;
+  background: #eeeeee !important;
 }
 
-/* line 80, ../sass/_inspect.scss */
+/* line 95, ../sass/_inspect.scss */
 .webkit-css-selector {
   color: #bd3e4d !important;
 }
 
-/* line 84, ../sass/_inspect.scss */
+/* line 99, ../sass/_inspect.scss */
 #-webkit-web-inspector .selector-matches {
-  background: #fad165 !important;
+  background: #ffeea8 !important;
   color: #333333 !important;
   font-weight: bold;
 }
@@ -118,12 +126,12 @@ How to bulid your themes 如何製作自己的Themes
 
 /* line 7, ../sass/_css.scss */
 .webkit-css-url {
-  color: #338899;
+  color: #1476a2;
 }
 
 /* line 11, ../sass/_css.scss */
 .webkit-css-color, .webkit-css-string, .webkit-css-keyword, .webkit-css-selector {
-  color: #338899 !important;
+  color: #1476a2 !important;
 }
 
 /* line 15, ../sass/_css.scss */
@@ -143,28 +151,28 @@ How to bulid your themes 如何製作自己的Themes
 
 /* line 1, ../sass/_html.scss */
 .webkit-html-comment {
-  color: #4da95f !important;
+  color: #5a9aa8 !important;
   font-style: italic !important;
 }
 
-/* line 5, ../sass/_html.scss */
+/* line 6, ../sass/_html.scss */
 .webkit-html-tag, .webkit-html-doctype {
   color: #6b4e32 !important;
 }
 
-/* line 8, ../sass/_html.scss */
+/* line 10, ../sass/_html.scss */
 .webkit-html-text-node, .webkit-html-css-node, .webkit-html-js-node {
   color: #333333 !important;
 }
 
-/* line 11, ../sass/_html.scss */
+/* line 14, ../sass/_html.scss */
 .webkit-html-attribute-name {
-  color: #bd3e4d !important;
+  color: #d82168 !important;
 }
 
-/* line 14, ../sass/_html.scss */
+/* line 18, ../sass/_html.scss */
 .webkit-html-attribute-value {
-  color: #0049b8 !important;
+  color: #1f6dd8 !important;
 }
 
 /* line 3, ../sass/_javascript.scss */
@@ -172,23 +180,23 @@ How to bulid your themes 如何製作自己的Themes
   color: #333333 !important;
 }
 
-/* line 6, ../sass/_javascript.scss */
+/* line 7, ../sass/_javascript.scss */
 .webkit-javascript-comment {
   font-style: italic !important;
   color: #4da95f !important;
 }
 
-/* line 10, ../sass/_javascript.scss */
+/* line 12, ../sass/_javascript.scss */
 .webkit-javascript-number {
   color: #429694 !important;
 }
 
-/* line 13, ../sass/_javascript.scss */
+/* line 16, ../sass/_javascript.scss */
 .webkit-javascript-ident {
   color: #333333 !important;
 }
 
-/* line 16, ../sass/_javascript.scss */
+/* line 20, ../sass/_javascript.scss */
 .webkit-javascript-keyword {
   color: #c84252 !important;
 }
@@ -197,34 +205,34 @@ How to bulid your themes 如何製作自己的Themes
 #-webkit-web-inspector .console-user-command > .console-message-text {
   color: #333333 !important;
 }
-/* line 5, ../sass/_console.scss */
-#-webkit-web-inspector #console-messages a {
-  color: #338899 !important;
-}
 /* line 6, ../sass/_console.scss */
+#-webkit-web-inspector #console-messages a {
+  color: #1476a2 !important;
+}
+/* line 9, ../sass/_console.scss */
 #-webkit-web-inspector #console-messages a:hover {
   color: blue !important;
 }
-/* line 11, ../sass/_console.scss */
+/* line 14, ../sass/_console.scss */
 #-webkit-web-inspector .console-formatted-boolean {
   color: #cc6600 !important;
 }
-/* line 16, ../sass/_console.scss */
+/* line 21, ../sass/_console.scss */
 #-webkit-web-inspector .console-error-level .properties-tree {
   font-weight: normal !important;
 }
-/* line 20, ../sass/_console.scss */
+/* line 26, ../sass/_console.scss */
 #-webkit-web-inspector .console-message, #-webkit-web-inspector .console-user-command {
-  padding: 3px 0 !important;
+  padding: 0 0 !important;
   border: 0px !important;
   border-bottom: 1px dashed #dddddd !important;
   line-height: 1.2em !important;
 }
-/* line 29, ../sass/_console.scss */
+/* line 38, ../sass/_console.scss */
 #-webkit-web-inspector .console .console-formatted-string {
   color: #007cbb !important;
 }
-/* line 32, ../sass/_console.scss */
+/* line 42, ../sass/_console.scss */
 #-webkit-web-inspector .console .name {
   color: #bd3e4d !important;
 }
