@@ -2,7 +2,7 @@
 
 An easy-to-read, configurable theme for Chrome Developer Tools.
 
-![](https://raw.github.com/patik/Readable-ChromeDevThemes/master/screenshots/inspect-panel.png)
+![](https://raw.github.com/patik/Bodensee-theme-devtools/master/screenshots/inspect-panel.png)
 
 ### Installation
 
@@ -10,23 +10,23 @@ An easy-to-read, configurable theme for Chrome Developer Tools.
 
 ```
 cp ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom_backup.css
-curl -o ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css https://raw.github.com/patik/Readable-ChromeDevThemes/master/Custom.css
+curl -o ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css
 ```
 
-Or download <a href="https://raw.github.com/patik/Readable-ChromeDevThemes/master/Custom.css" target="_black">Custom.css</a> and copy it to `~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/`
+Or download <a href="https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css" target="_black">Custom.css</a> and copy it to `~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/`
 
 #### Linux
 
 ```
 cp ~/.config/chromium/Default/User\ StyleSheets/Custom.css ~/.config/chromium/Default/User\ StyleSheets/Custom_backup.css
-curl -o ~/.config/chromium/Default/User\ StyleSheets/Custom.css https://raw.github.com/patik/Readable-ChromeDevThemes/master/Custom.css
+curl -o ~/.config/chromium/Default/User\ StyleSheets/Custom.css https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css
 ```
 
-Or download <a href="https://raw.github.com/patik/Readable-ChromeDevThemes/master/Custom.css" target="_black">Custom.css</a> and copy it to `~/.config/chromium/Default/User\ StyleSheets/`
+Or download <a href="https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css" target="_black">Custom.css</a> and copy it to `~/.config/chromium/Default/User\ StyleSheets/`
 
 #### Windows
 
-1. Download <a href="https://raw.github.com/patik/Readable-ChromeDevThemes/master/Custom.css" target="_black">Custom.css</a>
+1. Download <a href="https://raw.github.com/patik/Bodensee-theme-devtools/master/Custom.css" target="_black">Custom.css</a>
 2. Browse to the `%LOCALAPPDATA%\Google\Chrome\User Data\Default\User StyleSheets\` folder
 3. Overwrite the existing `Custom.css` file there
 
