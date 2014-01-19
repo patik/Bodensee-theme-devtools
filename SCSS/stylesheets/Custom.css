@@ -157,7 +157,7 @@ How to bulid your themes 如何製作自己的Themes
 
 /* line 6, ../sass/_html.scss */
 .webkit-html-tag, .webkit-html-doctype {
-  color: #fe57a1 !important;
+  color: #6b4e32 !important;
 }
 
 /* line 10, ../sass/_html.scss */
@@ -215,7 +215,7 @@ How to bulid your themes 如何製作自己的Themes
 }
 /* line 14, ../sass/_console.scss */
 #-webkit-web-inspector .console-formatted-boolean {
-  color: #fe57a1 !important;
+  color: #cc6600 !important;
 }
 /* line 21, ../sass/_console.scss */
 #-webkit-web-inspector .console-error-level .properties-tree {

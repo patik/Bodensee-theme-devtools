@@ -26,7 +26,7 @@ $line-height: 1.2em;
 
 // html document colors
 $html-comment-color:    $sea-blue;
-$html-tag-color:        #fe57a1; // $brown;
+$html-tag-color:        $brown;
 $html-attr-color:       $pink;
 $html-value-color:      $blue;
 $html-tag-foreground:   #333;
@@ -50,7 +50,7 @@ $javascript-keyword-color:     $maroon;
 $console-foreground:        #333;
 $console-link-color:        $dark-sea-blue;
 $console-link-hover-color:  blue;
-$console-bool-color:        #fe57a1; // $burn-siena;
+$console-bool-color:        $burn-siena;
 $console-key-color:         $blue2;
 $console-value-color:       $maroon2;
 $console-line-border:       1px dashed #ddd;
