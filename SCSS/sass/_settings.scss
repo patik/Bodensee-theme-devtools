@@ -1,29 +1,32 @@
 // Aliases
-$brown: #6B4E32;
+$pink: #d82168;
 $maroon: #C84252;
 $maroon2: #BD3E4D;
+$burn-siena: #CC6600;
+$yellow: #ffeea8;
+$green: #4DA95F;
+$sea-green: #429694;
 $sea-blue: #5A9AA8;
 $light-sea-blue: #3F8EBB;
 $dark-sea-blue: #1476a2;
-$yellow: #ffeea8;
-$pink: #d82168;
 $blue: #1f6dd8;
 $blue2: #007cbb;
-$green: #4DA95F;
-$sea-green: #429694;
-$burn-siena: #CC6600;
+$brown: #6B4E32;
+$light-green: #D0F3F3;
+
+$new-blue: lighten(#8EB7E4, 20%);
 
 // globe colors
 $background-color : #fcfcfc;
 $foreground-color : #333;
 
-$font-size: 15px;
-$font-family: "Source Sans Pro", Menlo, "Consolas", monospace;
-$line-height : 1.2em;
+$font-size:   10px;
+$font-family: "Source Code Pro", Menlo, "Consolas", monospace ;
+$line-height: 1.2em;
 
 // html document colors
 $html-comment-color:    $sea-blue;
-$html-tag-color:        $brown;
+$html-tag-color:        #fe57a1; // $brown;
 $html-attr-color:       $pink;
 $html-value-color:      $blue;
 $html-tag-foreground:   #333;
@@ -47,7 +50,7 @@ $javascript-keyword-color:     $maroon;
 $console-foreground:        #333;
 $console-link-color:        $dark-sea-blue;
 $console-link-hover-color:  blue;
-$console-bool-color:        $burn-siena;
+$console-bool-color:        #fe57a1; // $burn-siena;
 $console-key-color:         $blue2;
 $console-value-color:       $maroon2;
 $console-line-border:       1px dashed #ddd;
@@ -55,8 +58,8 @@ $console-line-padding:      0 0;
 
 // inspect settings
 $inspect-css-match-foreground:      #333;
-$inspect-css-match-background:      $yellow;
+$inspect-css-match-background:      $new-blue; // $yellow;
 $inspect-css-property-color:        $maroon2;
 $inspect-html-expand-background:    #eeeeee;
 $inspect-html-expand-border-color:  #6a6a6a;
-$inspect-html-selected-background:  $yellow;
+$inspect-html-selected-background:  $new-blue; // $yellow; // Highlighted element in the elements panel

@@ -5,7 +5,7 @@ Sublime text 2 default font
 Develop more pleasure！
 
 ### How to Install ###
-  1. Download <a href="https://raw.github.com/Augus/Readable-ChromeDevThemes/master/Custom.css" target="_black">Custom.css</a>
+  1. Download <a href="https://raw.github.com/patik/Readable-ChromeDevThemes/master/Custom.css" target="_black">Custom.css</a>
   2. Replace the `Custom.css` file in your `"User Stylesheets"` folder. Here is how to find `Custom.css`:
 
   #### Windows: ####
@@ -14,13 +14,13 @@ Develop more pleasure！
   #### Linux ####
   	```
   	cp ~/.config/chromium/Default/User\ StyleSheets/Custom.css ~/.config/chromium/Default/User\ StyleSheets/Custom_backup.css
-    curl -o ~/.config/chromium/Default/User\ StyleSheets/Custom.css https://raw.github.com/Augus/Readable-ChromeDevThemes/master/Custom.css
+    curl -o ~/.config/chromium/Default/User\ StyleSheets/Custom.css https://raw.github.com/patik/Readable-ChromeDevThemes/master/Custom.css
   	```
 
   #### Mac: ####
 		```
 		cp ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom_backup.css
-    curl -o ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css https://raw.github.com/Augus/Readable-ChromeDevThemes/master/Custom.css
+    curl -o ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css https://raw.github.com/patik/Readable-ChromeDevThemes/master/Custom.css
 		```
 
 ### Install Tip ###

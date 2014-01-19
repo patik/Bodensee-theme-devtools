@@ -22,8 +22,8 @@ How to bulid your themes 如何製作自己的Themes
 #-webkit-web-inspector #console-message,
 #-webkit-web-inspector .text-editor-contents,
 #-webkit-web-inspector #console-view * {
-  font-size: 15px !important;
-  font-family: "Source Sans Pro", Menlo, "Consolas", monospace !important;
+  font-size: 10px !important;
+  font-family: "Source Code Pro", Menlo, "Consolas", monospace !important;
   line-height: 1.2em !important;
 }
 
@@ -81,7 +81,7 @@ How to bulid your themes 如何製作自己的Themes
 #elements-content .parent.selected {
   border-left: 1px solid #000;
   border-radius: 3px;
-  background: #D0F3F3;
+  background: #d0f3f3;
 }
 /* line 75, ../sass/_inspect.scss */
 #elements-content .highlight {
@@ -91,7 +91,7 @@ How to bulid your themes 如何製作自己的Themes
 /* line 80, ../sass/_inspect.scss */
 #-webkit-web-inspector .elements .selected {
   border: 1px solid #6a6a6a;
-  background: #ffeea8 !important;
+  background: #e0ebf8 !important;
 }
 
 /* wrap expanded style */
@@ -112,7 +112,7 @@ How to bulid your themes 如何製作自己的Themes
 
 /* line 99, ../sass/_inspect.scss */
 #-webkit-web-inspector .selector-matches {
-  background: #ffeea8 !important;
+  background: #e0ebf8 !important;
   color: #333333 !important;
   font-weight: bold;
 }
@@ -157,7 +157,7 @@ How to bulid your themes 如何製作自己的Themes
 
 /* line 6, ../sass/_html.scss */
 .webkit-html-tag, .webkit-html-doctype {
-  color: #6b4e32 !important;
+  color: #fe57a1 !important;
 }
 
 /* line 10, ../sass/_html.scss */
@@ -215,7 +215,7 @@ How to bulid your themes 如何製作自己的Themes
 }
 /* line 14, ../sass/_console.scss */
 #-webkit-web-inspector .console-formatted-boolean {
-  color: #cc6600 !important;
+  color: #fe57a1 !important;
 }
 /* line 21, ../sass/_console.scss */
 #-webkit-web-inspector .console-error-level .properties-tree {
