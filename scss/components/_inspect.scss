@@ -1,9 +1,17 @@
+#-blink-dev-tools,
 #-webkit-web-inspector {
     .source-code,
     #main-panels .split-view-sidebar-right *,
     #console-message,
     .text-editor-contents,
-    #console-view * {
+    #console-view *,
+    // Blink:
+    .outline-disclosure ol li,
+    .text-editor .inner-container .webkit-line-content,
+    .text-editor-lines .inner-container .webkit-line-number,
+    .CodeMirror-lines,
+    #search-results-pane-file-based .search-match,
+    #console-view .console-message {
         font-size: $font-size !important;
         font-family: $font-family !important;
         line-height: $line-height !important;
@@ -28,20 +36,15 @@
     .parent,
     .parent * {
         -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
+                box-sizing: border-box;
 
         -webkit-transition: background 150ms cubic-bezier(0.47, 0, 0.745, 0.715);
-        -moz-transition: background 150ms cubic-bezier(0.47, 0, 0.745, 0.715);
-        -ms-transition: background 150ms cubic-bezier(0.47, 0, 0.745, 0.715);
-        -o-transition: background 150ms cubic-bezier(0.47, 0, 0.745, 0.715);
-        transition: background 150ms cubic-bezier(0.47, 0, 0.745, 0.715);
+             -o-transition: background 150ms cubic-bezier(0.47, 0, 0.745, 0.715);
+                transition: background 150ms cubic-bezier(0.47, 0, 0.745, 0.715);
 
         -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-        -moz-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-        -ms-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-        -o-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-        transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+             -o-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+                transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
     }
 
     &.source-code {
@@ -77,9 +80,12 @@
     }
 }
 
-#-webkit-web-inspector .elements .selected {
-    border: 1px solid $inspect-html-expand-border-color;
-    background: $inspect-html-selected-background !important;
+#-blink-dev-tools,
+#-webkit-web-inspector {
+    .elements .selected {
+        border: 1px solid $inspect-html-expand-border-color;
+        background: $inspect-html-selected-background !important;
+    }
 }
 
 /* wrap expanded style */
@@ -96,8 +102,11 @@
     color: $inspect-css-property-color !important;
 }
 
-#-webkit-web-inspector .selector-matches {
-    background: $inspect-css-match-background !important;
-    color: $inspect-css-match-foreground !important;
-    font-weight: bold;
+#-blink-dev-tools,
+#-webkit-web-inspector {
+    .selector-matches {
+        background: $inspect-css-match-background !important;
+        color: $inspect-css-match-foreground !important;
+        font-weight: bold;
+    }
 }

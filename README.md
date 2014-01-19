@@ -44,7 +44,7 @@ Or manually copy <a href="https://raw.github.com/patik/Bodensee-theme-devtools/m
 
 ## Customization
 
-Easily customize this theme with Sass by changing the colors in the `_setting.scss` file.
+Easily customize this theme with Sass by changing the colors in the `_variables_.scss` file.
 
 ## Thanks
 

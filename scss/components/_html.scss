@@ -3,11 +3,14 @@
       font-style: italic !important;
 }
 
-.webkit-html-tag, .webkit-html-doctype {
+.webkit-html-tag,
+.webkit-html-doctype {
     color: $html-tag-color !important;
 }
 
-.webkit-html-text-node, .webkit-html-css-node, .webkit-html-js-node {
+.webkit-html-text-node,
+.webkit-html-css-node,
+.webkit-html-js-node {
     color: $html-tag-foreground !important;
 }
 
