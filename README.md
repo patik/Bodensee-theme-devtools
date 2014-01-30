@@ -49,3 +49,7 @@ Easily customize this theme with Sass by changing the colors in the `_variables_
 ## Thanks
 
 This theme was forked from [Augus](https://github.com/Augus)' great [Readable-ChromeDevThemes](https://github.com/Augus/Readable-ChromeDevThemes).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/patik/bodensee-theme-devtools/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
